@@ -26,6 +26,7 @@
 		7698D5C621EF7CC2001A6DFB /* ListAlertMainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7698D5C521EF7CC2001A6DFB /* ListAlertMainTests.swift */; };
 		7698D5D121EF7CC2001A6DFB /* ListAlertMainUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7698D5D021EF7CC2001A6DFB /* ListAlertMainUITests.swift */; };
 		7698D5DF21EF85FF001A6DFB /* listcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7698D5DE21EF85FF001A6DFB /* listcell.swift */; };
+		76EF4C6B21F3CA21005EFF74 /* content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EF4C6A21F3CA21005EFF74 /* content.swift */; };
 		CC06B663ECCDBB90FE3CDE41 /* Pods_ListAlertMain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45272A87CB4C3AE21E7DA79C /* Pods_ListAlertMain.framework */; };
 /* End PBXBuildFile section */
 
@@ -74,6 +75,7 @@
 		7698D5D021EF7CC2001A6DFB /* ListAlertMainUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListAlertMainUITests.swift; sourceTree = "<group>"; };
 		7698D5D221EF7CC2001A6DFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7698D5DE21EF85FF001A6DFB /* listcell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listcell.swift; sourceTree = "<group>"; };
+		76EF4C6A21F3CA21005EFF74 /* content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = content.swift; sourceTree = "<group>"; };
 		86A760AB53165F530375AC06 /* Pods-ListAlertMain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ListAlertMain.release.xcconfig"; path = "Pods/Target Support Files/Pods-ListAlertMain/Pods-ListAlertMain.release.xcconfig"; sourceTree = "<group>"; };
 		DFC7D212C44172E11D49C6E6 /* Pods-ListAlertMain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ListAlertMain.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ListAlertMain/Pods-ListAlertMain.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -146,6 +148,7 @@
 		7698D5AF21EF7CC1001A6DFB /* ListAlertMain */ = {
 			isa = PBXGroup;
 			children = (
+				76EF4C6921F3C9EB005EFF74 /* classes */,
 				7698D61821EFE5C0001A6DFB /* controllers */,
 				7698D5B021EF7CC1001A6DFB /* AppDelegate.swift */,
 				7698D5B221EF7CC1001A6DFB /* ViewController.swift */,
@@ -209,6 +212,14 @@
 			children = (
 			);
 			path = controllers;
+			sourceTree = "<group>";
+		};
+		76EF4C6921F3C9EB005EFF74 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				76EF4C6A21F3CA21005EFF74 /* content.swift */,
+			);
+			path = classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -405,6 +416,7 @@
 				7698D5B321EF7CC1001A6DFB /* ViewController.swift in Sources */,
 				7698D5DF21EF85FF001A6DFB /* listcell.swift in Sources */,
 				7698D5B121EF7CC1001A6DFB /* AppDelegate.swift in Sources */,
+				76EF4C6B21F3CA21005EFF74 /* content.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
